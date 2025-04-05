@@ -24,4 +24,3 @@ function Home() {
 }
 
 export default Home
-// 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
