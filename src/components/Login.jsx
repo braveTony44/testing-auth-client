@@ -13,7 +13,7 @@ function Login() {
       email,
       password
      })
-     console.log(res.data?.user);
+     console.log(res.data);
    }
   return (
     <>
