@@ -12,7 +12,7 @@ function Login() {
      const res = await axios.post(`${BASE_URL}/login`,{
       email,
       password
-     })
+     },{ withCredentials: true})
      console.log(res.data);
    }
   return (
